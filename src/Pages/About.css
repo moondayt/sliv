@@ -1,0 +1,43 @@
+.about__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__adress {
+    width: 50%;
+    height: 520px;
+    position: relative;
+}
+
+.about__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -1;
+
+    transform: translateY(-50%);
+}
+
+.about__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.about__title {
+    margin-bottom: 0px;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px 0 5px 0;
+}
+
+.about__text {
+    font-size: 17px;
+    line-height: 1.4;
+    color: black;
+}

@@ -1,0 +1,63 @@
+.container_login {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.card {
+    width: 350;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px lightgray;
+}
+
+.card > h1 {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > div {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+form > div > input {
+    width: 300px;
+    border: none;
+    border-bottom: 0.5px solid lightgray;
+}
+
+
+.submit {
+    background: lightgray;
+    border-radius: 3px;
+    color: black;
+    float: right;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.ipt {
+    margin: 0 10px;
+    padding: 14px 25px;
+    background-color: transparent;
+    color: black;
+    border: 1px solit black;
+    border-radius: 3px;
+    cursor: text;
+    font-family: inherit;
+    font-size: 13px;
+}

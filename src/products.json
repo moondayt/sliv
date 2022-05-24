@@ -1,0 +1,13 @@
+{
+	"products": [
+		{ "key": 1,	
+			"title": "Альстромерия Розовая",
+			"price": 100,
+			"pict": "astromeriya_1.jpg"	},
+		{"key": 2,
+			"title": "Альстромерия Сереньевая",
+			"price": 200,
+			"pict": "astromeriya_2.jpg"
+		}
+	]
+}
